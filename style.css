@@ -1,0 +1,62 @@
+*{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    ;
+  }
+  
+  li {
+    float: right;
+    word-spacing: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: blue;
+  }
+
+
+  input{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input:hover{
+      background: rgb(226, 234, 237);
+  }
+
+  button{
+    background: black;
+    color:white;
+    height: 2rem;
+    width: 100%;
+    border: none;
+  }
+
+
+  table td{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+  }
+
+  #left{
+    float:left;
+  }
